@@ -15,84 +15,116 @@
 
 <body>
     <header class="header">
-        <nav>
-          <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
-
-        <ul class="nav-list list">
-            <li class="nav-item"><a href="./index.html" class="nav-link link">Студія</a></li>
-            <li class="nav-item"><a href="./portfolio.html" target="_blank" class="nav-link link">Портфоліо</a></li>
-            <li class="nav-item"><a href="" class="nav-link link">Контакти</a></li>
-        </ul>
-        </nav>
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com" class="link header-contacts">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link header-contacts">+38 096 111 11 11</a></li>
-        </ul>
-
+        <div class="header-container container">
+            <nav class="header-nav">
+                <a class="logo link" href="./index.html">Web<span class="logo-header">Studio</span></a>
+                <ul class="nav-list list">
+                    <li class="nav-item"><a href="./index.html" target="_blank" class="nav-link link">Студія</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" target="_blank" class="nav-link link">Портфоліо</a></li>
+                    <li class="nav-item"><a href="" class="nav-link link">Контакти</a></li>
+                </ul>
+            </nav>
+            <ul class="list head-contact">
+                <li><a href="mailto:info@devstudio.com" class="link header-contacts">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link header-contacts">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </header>
     <main>
-
-   <section>
-<ul class="list">
-    <li><button type="button" class="nav-btn">Веб-сайти</button></li>
-    <li><button type="button" class="nav-btn">Додатки</button></li>
-    <li><button type="button" class="nav-btn">Додатки</button></li>
-    <li><button type="button" class="nav-btn">Маркетинг</button></li>
-    <li><button type="button" class="nav-btn">Усі</button></li>
-</ul>
-
-<ul class="list">
-    <li class="card-item"><img src="./img/1111.jpg" alt="Ноутбук">
-        <h2 class="card-title">Технокряк</h2>
-        <p class="card-text">Веб-сайт</p>
-    </li>
-    <li class="card-item"><img src="./img/2222.jpg" alt="Спорт">
-        <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-        <p class="card-text">Дизайн</p>
-    </li>
-    <li class="card-item"><img src="./img/3.jpg" alt="Ресторан">
-        <h2 class="card-title">Ресторан Seafood</h2>
-        <p class="card-text">Додаток</p>
-    </li>
-    <li class="card-item"><img src="./img/4.jpg" alt="Навушники">
-        <h2 class="card-title">Проєкт Prime</h2>
-        <p class="card-text">Маркетинг</p>
-    </li>
-    <li class="card-item"><img src="./img/5.jpg" alt="Коробки">
-        <h2 class="card-title">Проєкт Boxes</h2>
-        <p class="card-text">Додаток</p>
-    </li>
-    <li class="card-item"><img src="./img/6.jpg" alt="Монітор">
-        <h2 class="card-title">Inspiration has no Borders</h2>
-        <p class="card-text">Веб-свйт</p>
-    </li>
-    <li class="card-item"><img src="./img/7.jpg" alt="Книга">
-        <h2 class="card-title">Видання Limited Edition</h2>
-        <p class="card-text">Дизайн</p>
-    </li>
-    <li class="card-item"><img src="./img/8.jpg" alt="Ярлик">
-        <h2 class="card-title">Проєкт LAB</h2>
-        <p class="card-text">Маркетинг</p>
-    </li>
-    <li class="card-item"><img src="./img/9.jpg" alt="Робочий стіл">
-        <h2 class="card-title">Growing Business</h2>
-        <p class="card-text">Додаток</p>
-    </li>
-</ul>
+  <section class="section ">
+<div class="container set-btn">
+    <ul class="btn-container list">
+        <li><button type="button" class="nav-btn">Усі</button></li>
+        <li><button type="button" class="nav-btn">Додатки</button></li>
+        <li><button type="button" class="nav-btn">Додатки</button></li>
+        <li><button type="button" class="nav-btn">Маркетинг</button></li>
+        <li><button type="button" class="nav-btn">Веб-сайти</button></li>
+    </ul>
+</div>
+  <div class="container">
+    <ul class="card-container list">
+        <li class="card-item">
+            <img src="./img/1111.jpg" alt="Ноутбук">
+            <div class="set-card">
+                <h2 class="card-title">Технокряк</h2>
+                <p class="card-text">Веб-сайт</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/2222.jpg" alt="Спорт">
+            <div class="set-card">
+                <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                <p class="card-text">Дизайн</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/3.jpg" alt="Ресторан">
+            <div class="set-card">
+                <h2 class="card-title">Ресторан Seafood</h2>
+                <p class="card-text">Додаток</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/4.jpg" alt="Навушники">
+            <div class="set-card">
+                <h2 class="card-title">Проєкт Prime</h2>
+                <p class="card-text">Маркетинг</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/5.jpg" alt="Коробки">
+            <div class="set-card">
+                <h2 class="card-title">Проєкт Boxes</h2>
+                <p class="card-text">Додаток</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/6.jpg" alt="Монітор">
+            <div class="set-card">
+                <h2 class="card-title">Inspiration has no Borders</h2>
+                <p class="card-text">Веб-свйт</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/7.jpg" alt="Книга">
+            <div class="set-card">
+                <h2 class="card-title">Видання Limited Edition</h2>
+                <p class="card-text">Дизайн</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/8.jpg" alt="Ярлик">
+            <div class="set-card">
+                <h2 class="card-title">Проєкт LAB</h2>
+                <p class="card-text">Маркетинг</p>
+            </div>
+        </li>
+        <li class="card-item">
+            <img src="./img/9.jpg" alt="Робочий стіл">
+            <div class="set-card">
+                <h2 class="card-title">Growing Business</h2>
+                <p class="card-text">Додаток</p>
+            </div>
+        </li>
+    </ul>
+</div>
    </section>
 
     </main>
     <footer class="footer">
-        <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
-        <address>
-            <ul class="list">
-                <li><a href="https://goo.gl/maps/WGz5SJTLMQsoGpVZA" target="_blank" rel="noopener noreferrer nofollow"
-                        class="link map-address">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
-                <li><a href="mailto:info@devstudio.com" class="address link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="address link">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="footer-container container">
+            <a class="logo link" href="./index.html">Web<span class="logo-footer">Studio</span></a>
+            <address>
+                <ul class="list list-footer">
+                    <li class="list-address"><a href="https://goo.gl/maps/WGz5SJTLMQsoGpVZA" target="_blank"
+                            rel="noopener noreferrer nofollow" class="link map-address">м. Київ, пр-т Лесі Українки, 26</a>
+                    </li>
+                    <li class="list-address"><a href="mailto:info@devstudio.com" class="address link">info@devstudio.com</a>
+                    </li>
+                    <li class="list-address"><a href="tel:+380961111111" class="address link">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
