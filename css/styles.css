@@ -51,10 +51,7 @@ img {
 
 .header {
     background-color: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 215px;
-    padding-right: 215px;
+
     border-bottom: 1px solid #ECECEC;
 }
 .header-container {
@@ -130,12 +127,10 @@ img {
 /* main */
 .hero {
     background-color: #2F303A;
-}
-
-.hero-container {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 .hero-title {
 width: 700px;
     margin-bottom: 30px;
@@ -179,7 +174,13 @@ width: 700px;
 .hero-btn:focus {
     background-color: transparent;
 }
- 
+
+.points-section {
+    padding-bottom: 118px;
+}
+.points {
+    width: 270px;
+}
 .list-title {
     margin-bottom: 10px;
     font-weight: 700;
@@ -217,7 +218,9 @@ width: 700px;
 
     color: #212121;
 }
-
+.work-section {
+    padding-top: 0%;
+}
 .team {
     background-color: #F5F4FA;
 }
@@ -350,11 +353,11 @@ width: 700px;
 .footer {
 
     background-color: #2F303A;
-}
-.footer-container {
+   
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .list-footer {
     margin-top: 20px;
 }
@@ -368,8 +371,8 @@ width: 700px;
 
     color: #FFFFFF;
 }
-.list-address {
-    padding-bottom: 9px;
+.list-address:not(:last-child) {
+    margin-bottom: 9px;
 }
 .address {
     font-style: normal;
